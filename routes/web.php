@@ -16,7 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('beranda');
 });
+route::get('/{any}', function(){
+    return view('beranda');
+});
+route::get('/{any}/{any1}', function(){
+    return view('beranda');
+});
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');

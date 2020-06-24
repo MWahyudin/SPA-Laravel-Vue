@@ -1,36 +1,26 @@
 <template>
-    <div>
- <v-app>
-            <v-row>
-                <v-col>
-                    <v-card >
-                        <v-toolbar>
-                           
-                            <v-toolbar-title>Single Page application using Vue <v-icon color="red darken-2">mdi-heart</v-icon></v-toolbar-title>
-                            <v-spacer></v-spacer>
-                            <v-btn icon>
-                                <v-icon>mdi-magnify</v-icon>
-                            </v-btn>
-                            <v-btn icon>
-                                <v-icon>mdi-heart</v-icon>
-                            </v-btn>
-                            <v-btn icon>
-                                <v-icon>mdi-dots-vertical</v-icon>
-                            </v-btn>
-                        </v-toolbar>
-                    </v-card>
-                </v-col>
-            </v-row>
+     <div>
+         <v-app>
+        <toolbar></toolbar>
+            <v-main>
+      <router-view></router-view>
+            </v-main>
         </v-app>
     </div>
 </template>
 
 <script>
+import toolbar from './Toolbar.vue'
+import AppMahasiswa from './AppMahasiswa'
+import AppFakultas from './AppFakultas'
+
+
     export default {
-        
+components : {
+    toolbar,
+    AppMahasiswa,
+    AppFakultas
+}
     }
+
 </script>
-
-<style lang="scss" scoped>
-
-</style>
