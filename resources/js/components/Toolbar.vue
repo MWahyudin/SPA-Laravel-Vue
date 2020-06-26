@@ -17,13 +17,13 @@
         data() {
             return {
                 pages: [{
-                        title: "Mahasiswa",
-                        to: "/mahasiswa",
+                        title: "Customer",
+                        to: "/customer",
                         icon: "mdi-magnify"
                     },
                     {
-                        title: "Fakultas",
-                        to: "/fakultas",
+                        title: "Address",
+                        to: "/address",
                         icon: "mdi-dots-vertical"
                     },
                 ]

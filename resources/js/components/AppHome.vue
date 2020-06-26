@@ -11,15 +11,15 @@
 
 <script>
 import toolbar from './Toolbar.vue'
-import AppMahasiswa from './AppMahasiswa'
-import AppFakultas from './AppFakultas'
+import AppCustomer from './AppCustomer'
+import AppAddress from './AppAddress'
 
 
     export default {
 components : {
     toolbar,
-    AppMahasiswa,
-    AppFakultas
+    AppCustomer,
+    AppAddress
 }
     }
 

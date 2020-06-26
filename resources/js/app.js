@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 
+window.axios = require('axios');
 
 //Global component
 import AppHome from './components/AppHome.vue'

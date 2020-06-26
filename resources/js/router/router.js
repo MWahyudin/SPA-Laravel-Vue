@@ -4,15 +4,15 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 //components
-import AppMahasiswa from '../components/AppMahasiswa.vue'
-import AppFakultas from '../components/AppFakultas'
+import AppCustomer from '../components/AppCustomer.vue'
+import AppAddress from '../components/AppAddress'
 
 
 const routes = [
 
     //Auth Path
-    { path: '/mahasiswa', component: AppMahasiswa, name: 'mahasiswa'},
-    { path: '/fakultas', component: AppFakultas, name: 'fakultas'}
+    { path: '/customer', component: AppCustomer, name: 'customer'},
+    { path: '/address', component: AppAddress, name: 'address'}
 ]
 
 
