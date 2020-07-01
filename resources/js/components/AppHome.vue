@@ -10,17 +10,17 @@
 </template>
 
 <script>
-import toolbar from './Toolbar.vue'
-import AppCustomer from './AppCustomer'
-import AppAddress from './AppAddress'
+/* eslint-disable vue/no-unused-components */
+import toolbar from './Toolbar.vue';
+import AppCustomer from './AppCustomer.vue';
+import AppAddress from './AppAddress.vue';
 
-
-    export default {
-components : {
-    toolbar,
-    AppCustomer,
-    AppAddress
-}
-    }
+export default {
+	components: {
+		toolbar,
+		AppCustomer,
+		AppAddress,
+	},
+};
 
 </script>

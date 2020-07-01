@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2020": true
+    },
+    "extends": [
+        "plugin:vue/essential",
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "indent": [2, "tab"],
+        "no-tabs": 0
+    }
+}
